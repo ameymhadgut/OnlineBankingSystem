@@ -1,0 +1,107 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="form.css">
+<script src="form.js" ></script>
+
+</head>
+
+
+<body onload="document.myform.fname.focus()">
+ <div id="signup">
+<b>Sign-up</b><br><br>
+ </div>
+<div class="rightattribute" >
+</div>
+ <form id="myform">
+
+  <div class="leftattribute">
+  <b>Personal Details:</b><br>
+
+  <br>&nbsp;First Name:
+  <input onclick="formvalidate()" id="fname" type="text"><br>
+  
+  &nbsp;Last Name:&nbsp;
+  <input id="lname" type="text"><br>
+ 
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gender:&nbsp;<input type="radio" name="sex" value="male" checked>Male
+  <input id="gender" type="radio" name="sex" value="female" checked>Female<br>
+ 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City:&nbsp;
+  <input list="city" name="browser">
+  <datalist id="city">
+  <option value="Mumbai">
+  <option value="Delhi">
+  <option value="Banglore">
+  <option value="Pune">
+  <option value="Kolkata">
+  </datalist>
+  <br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Country:&nbsp;
+  <input id="country" list="country" name="browser">
+  <datalist id="country">
+  <option value="India">
+  <option value="USA">
+  <option value="Australia">
+  <option value="South Africa">
+  <option value="England">
+  </datalist>
+  <br>
+ 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:
+  <input id="email" type="text"><br> <br>
+
+
+ </div>
+
+<div class="rightattribute">
+ <b>Account Details:</b><br>
+  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Username:&nbsp;
+  <input id="username" type="text"><br>
+
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password:&nbsp;
+  <input id="password1" type="password"><br>
+  
+  <br> Confirm password:
+  <input id="password2" type="password"><br>
+
+  <br>&nbsp;Security Question:
+  <select name="questions">
+  <option value="bp">What is your birthplace?</option>
+  <option value="dn">What is your dog's name?</option>
+  <option value="pn">What is your pet name?</option>
+  <option value="fc">Favourite Colour?</option>
+  </select><br>
+ 
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Answer:
+  <input type="text"><br>
+
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nationality:&nbsp;
+  <select name="questions">
+  <option value="IN">Indian</option>
+  <option value="Am">American</option>
+  <option value="O">Others</option>
+  </option>
+  </select><br>
+
+</div>
+
+<div id="tandc">
+<font  size="8">Terms and Conditions:</emp><br>
+&nbsp;&nbsp;&nbsp;<input id="tnc" type="checkbox" name="one" value="tandc"><font  size="5">I have read and accept all terms and conditions.</font><br>
+&nbsp;&nbsp;&nbsp;<input type="checkbox" name="one" value="tandc"><font  size="5">I want to recieve offers.</font><br>
+&nbsp;&nbsp;&nbsp;<input type="checkbox" name="one" value="tandc"><font  size="5">I want to subscribe for free newsletter(<i>can be unsubscribed later</i>)</font><br>
+<font  size="8">Review:</emp><br>
+&nbsp;&nbsp;&nbsp;<textarea rows="4" cols="50">
+</textarea><br>
+<p style="text-align:center"><button id="submit" align="right" type="button" width="150%" >Submit</button>
+
+</div>
+
+</form>
+
+</body>
+
+
+</html>

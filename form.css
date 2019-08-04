@@ -1,0 +1,104 @@
+
+
+#title {background-color:rgba(0, 174, 255, 1);padding-top: 0px;padding-bottom:10px;height:100;top:0px; postion:absolute;}
+
+#signup {
+text-align:center;position:absolute; top:100px;
+color:#09449E;
+font-size:30; 
+background-color:lightblue;
+padding-top: 10px;
+height: 45;
+width:1333;}
+
+
+
+
+div.leftattribute 
+{
+text-align:left; 
+color:#09449E;
+font-size:20; 
+background-color:#A4C2E8;
+position: absolute;
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 25px;
+padding-left: 15px;
+width:620px;
+left:8px;
+top:150px;
+}
+
+
+
+
+div.rightattribute 
+{
+text-align:left;  
+color:#09449E;
+font-size:20; 
+background-color:#A4C2E8;
+position: absolute;
+padding-top: 10px;
+padding-right: 35px;
+padding-bottom: 60px;
+padding-left: 10px;
+left:665px;
+right:5px;
+top:150px;
+width:630px;}
+
+
+
+#tandc
+
+{
+background-color:#0751B1;
+color:lightblue;
+position:absolute;
+top:615px;
+width:1310px;
+padding-left: 20px;
+padding-top: 2px;
+padding-bottom: 2px;
+height:50;
+}
+
+
+#submit
+
+{
+color:#09449E;
+font-size:16; 
+width:100;
+height:30;
+
+}
+
+
+
+.error {
+float:right;
+font-size:15; 
+color:red;
+
+}
+
+
+
+input.strings
+{width:200px;height:25px;font-size:15px;color:darkblue;
+background-color:lightblue;}
+
+select.strings
+{width:200px;height:30px;font-size:15px;color:darkblue;
+background-color:lightblue;}
+
+#age
+{width:100px;height:30px;font-size:15px;color:darkblue;
+background-color:lightblue;}
+
+#address
+{color:darkblue;
+background-color:lightblue;}
